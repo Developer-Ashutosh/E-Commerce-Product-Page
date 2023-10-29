@@ -1,6 +1,6 @@
 # Frontend Mentor - E-commerce product page solution
 
-This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-ecommerce-product-page-Lu59KUNRB0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [E-Commerce Product Page Solution](https://your-solution-url.com)
-- Live Site URL: [E-Commerce product Page](https://your-live-site-url.com)
+- Solution URL: [E-Commerce Product Page Solution](https://www.frontendmentor.io/solutions/responsive-ecommerce-product-page-Lu59KUNRB0)
+- Live Site URL: [E-Commerce product Page](https://developer-ashutosh.github.io/E-Commerce-Product-Page/)
 
 ## My process
 
