@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to E-Commerce Product Page! Built by - Ashutosh Kumar">
+
+  <link rel="icon" type="image/png" href="./images/logo.svg">
+
+  <title>E-Commerce Product Page | @Developer Ashutosh</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="left">
+      <div class="logo">
+        <a href="#"><img src="./images/logo.svg" alt="Logo"></a>
+      </div>
+      <nav class="links">
+        <a href="#collections" class="link">Collections</a>
+        <a href="#men" class="link">Men</a>
+        <a href="#dwomen" class="link">Women</a>
+        <a href="#about" class="link">About</a>
+        <a href="#contact" class="link">Contact</a>
+      </nav>
+    </div>
+    <div class="right">
+      <div class="cartNotification" data-count="0">
+        <img src="./images/icon-cart.svg" alt="" class="cart">
+      </div>
+      <img src="./images/image-avatar.png" alt="Avatar Img" class="avatar">
+    </div>
+    <div class="cartSection">
+      <div class="cartHead">Cart</div>
+      <div class="cartBody">
+        <!-- Adding Items to the Cart Dynamically -->
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="left imageContainer">
+      <div class="productImg">
+        <img src="./images/image-product-1.jpg" alt="Product Img">
+      </div>
+      <div class="thumbnails">
+        <div class="thumbnail">
+          <img src="./images/image-product-1.jpg" alt="Product One">
+        </div>
+        <div class="thumbnail">
+          <img src="./images/image-product-2.jpg" alt="Product Two">
+        </div>
+        <div class="thumbnail">
+          <img src="./images/image-product-3.jpg" alt="Product Three">
+        </div>
+        <div class="thumbnail">
+          <img src="./images/image-product-4.jpg" alt="Product Four">
+        </div>
+      </div>
+    </section>
+    <section class="right">
+      <div class="header">
+        <p>Sneaker Company</p>
+        <h2>Fall Limited Edition Sneakers</h2>
+      </div>
+      <div class="details">
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole,
+          they’ll withstand everything the weather can offer.</p>
+        <div class="pricing">
+          <div class="final">
+            <div class="cost">$125.00</div>
+            <div class="discount">50%</div>
+          </div>
+          <div class="initial">$250.00</div>
+        </div>
+      </div>
+      <div class="cartAdder">
+        <div class="quantityControler">
+          <img src="./images/icon-minus.svg" alt="" class="minus">
+          <span class="quantity">0</span>
+          <img src="./images/icon-plus.svg" alt="" class="plus">
+        </div>
+        <div class="toCart"><img src="./images/icon-cart.svg" alt="">Add to cart</div>
+      </div>
+    </section>
+    <section class="lightbox">
+      <div class="light-back"></div>
+      <div class="light-front imageContainer">
+        <div class="box">
+          <img src="./images/icon-previous-dark.svg" alt="Previous Img" class="previousIcon">
+          <img src="./images/icon-close-white.svg" alt="Close Icon" class="closeIcon">
+          <div class="productImg">
+            <img src="./images/image-product-1.jpg" alt="Product Img">
+          </div>
+          <img src="./images/icon-next-dark.svg" alt="Next Img" class="nextIcon">
+        </div>
+        <div class="thumbnails">
+          <div class="thumbnail">
+            <img src="./images/image-product-1.jpg" alt="Product One">
+          </div>
+          <div class="thumbnail">
+            <img src="./images/image-product-2.jpg" alt="Product Two">
+          </div>
+          <div class="thumbnail">
+            <img src="./images/image-product-3.jpg" alt="Product Three">
+          </div>
+          <div class="thumbnail">
+            <img src="./images/image-product-4.jpg" alt="Product Four">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Developer-Ashutosh/">Ashutosh Kumar</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
