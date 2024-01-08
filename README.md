@@ -42,7 +42,7 @@ Users should be able to:
 ### What I learned
 
 ```html
-  <div class="cartNotification" data-count="0">
+<div class="cartNotification" data-count="0"></div>
 ```
 
 ```css
@@ -51,6 +51,7 @@ Users should be able to:
   filter: brightness(0.5);
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
   cartNotification.setAttribute("data-count", quantity.innerText);
